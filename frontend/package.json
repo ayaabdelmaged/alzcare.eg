@@ -1,0 +1,41 @@
+{
+  "name": "neurocare-ai-frontend",
+  "version": "1.0.0",
+  "description": "NeuroCare AI - Alzheimer's Assistant System Frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:ngrok": "vite build --mode ngrok",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
+    "@fortawesome/free-regular-svg-icons": "^7.2.0",
+    "@fortawesome/free-solid-svg-icons": "^7.2.0",
+    "@fortawesome/react-fontawesome": "^3.3.1",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@use-gesture/react": "^10.3.1",
+    "aos": "^2.3.4",
+    "gsap": "^3.14.2",
+    "leaflet": "^1.9.4",
+    "lenis": "^1.1.18",
+    "meshline": "^3.3.1",
+    "motion": "^12.27.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.20.0",
+    "socket.io-client": "^4.8.3",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "terser": "^5.46.0",
+    "vite": "^5.0.8"
+  }
+}
